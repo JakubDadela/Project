@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="description" content="Tu wpisz opis zawartości strony">
+    <link rel="stylesheet" href="style.css">
+	<title>Tu wpisz tytuł strony</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator walut</h1>
+    <form action="/my-handling-form-page" method="post">
+        <label for="Do zamiany">Waluta:</label>
+        <select class="Waluta1" id="val1" required>
+            <option>Zlotowki</option>
+            <option>Euro</option>
+            <option>Dolary</option>
+        </select>
+        <br>
+        <label for="Waluta2">Na jaką zamienić</label>
+        <select class="Waluta2" id="val2" required>
+                <option>Zlotowki</option>
+                <option>Euro</option>
+                <option>Dolary</option>
+        </select>
+        <br>
+        <label for="Przelicznik">Przelicz walute</label>
+        <input type="number" id="Pole" min="0">
+        <button class="btn">Oblicz</button>
+        <br>
+    </form>
+    <p></p>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
